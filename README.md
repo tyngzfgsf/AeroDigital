@@ -63,7 +63,7 @@ Since Scout is currently in **Early Access** and not yet on the Play Store, you 
 
 <div align="center">
   
-  <h3>Aero Digital</h3>
+  <h3>LOL_Gitech</h3>
   
   <p align="center">
     I am a solo developer based in <b>South Korea</b>. 🇰🇷
