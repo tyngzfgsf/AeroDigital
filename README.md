@@ -46,7 +46,7 @@ Everything—from your chat history to your answer drafts—is processed and sto
 
 Since Scout is currently in **Early Access** and not yet on the Play Store, you will need to install the APK manually:
 
-1.  **Download** the latest `.apk` file from the [Releases Page](releases/latest).
+1.  **Download** the latest `.apk` file from the [Releases Page](releases).
 2.  Open the file on your Android device.
 3.  If prompted, allow installation from **"Unknown Sources"** (This is required for APKs).
 4.  Launch Scout and start preparing.
