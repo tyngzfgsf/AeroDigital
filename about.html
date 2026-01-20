@@ -33,11 +33,11 @@
     <section class="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
         <div class="max-w-3xl text-center">
             <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-8 fade-in text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500">
-                Preparation,<br>perfected.
+                Preparation,<br>accelerated.
             </h1>
             <p class="text-xl md:text-2xl text-gray-400 leading-relaxed fade-in" style="animation-delay: 0.2s;">
                 Interviews aren't won in the room.<br>
-                They are won in the silence of preparation.
+                They are won in the speed of your preparation.
             </p>
         </div>
     </section>
@@ -50,12 +50,17 @@
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="flex-1">
                         <h3 class="text-2xl font-bold mb-4">Intelligent Conversation.</h3>
-                        <p class="text-gray-400 text-lg leading-relaxed">
-                            Scout is your dedicated interview partner. Chat naturally with our AI to simulate interview scenarios, refine your answers, and build confidence before the real day arrives.
+                        <p class="text-gray-400 text-lg leading-relaxed mb-6">
+                            Scout is your dedicated interview partner. Chat naturally with our AI to simulate interview scenarios. Thanks to the Groq LPU™, responses are instantaneous—creating a flow that feels like a real human dialogue.
                         </p>
+                        
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-orange-500/30 bg-orange-500/10">
+                            <span class="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+                            <span class="text-xs font-mono text-orange-300">Powered by Groq</span>
+                        </div>
                     </div>
                     <div class="w-full md:w-1/2 h-64 bg-gray-900 rounded-3xl border border-white/10 flex flex-col justify-center px-8 relative overflow-hidden">
-                        <div class="absolute inset-0 bg-gradient-to-br from-blue-900/10 to-black"></div>
+                        <div class="absolute inset-0 bg-gradient-to-br from-orange-900/10 to-black"></div>
                         <div class="w-2/3 bg-white/10 p-3 rounded-2xl rounded-tl-none mb-3 z-10"></div>
                         <div class="w-3/4 bg-blue-600/20 p-3 rounded-2xl rounded-tr-none self-end z-10"></div>
                         <div class="w-1/2 bg-white/10 p-3 rounded-2xl rounded-tl-none z-10"></div>
@@ -66,7 +71,7 @@
                     <div class="flex-1">
                         <h3 class="text-2xl font-bold mb-4">Review Your Growth.</h3>
                         <p class="text-gray-400 text-lg leading-relaxed">
-                            Never lose a good answer. Scout saves your chat sessions locally, allowing you to look back at your history, review your best responses, and track your improvement over time.
+                            Never lose a good answer. Scout saves your chat sessions locally on your device, allowing you to look back at your history, review your best responses, and track your improvement over time.
                         </p>
                     </div>
                     <div class="w-full md:w-1/2 h-64 bg-gray-900 rounded-3xl border border-white/10 flex items-center justify-center relative overflow-hidden">
@@ -81,9 +86,9 @@
 
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="flex-1">
-                        <h3 class="text-2xl font-bold mb-4">Total Privacy.</h3>
+                        <h3 class="text-2xl font-bold mb-4">Transient Processing.</h3>
                         <p class="text-gray-400 text-lg leading-relaxed">
-                            Your career history is personal. That's why Scout processes data locally on your Android device. No external servers, no data leaks. Your preparation stays yours.
+                            We prioritize data minimization. While Scout uses the cloud for high-speed intelligence, <strong>we do not store your conversations</strong> on our servers. Your chat history lives locally on your device, giving you the best of both worlds: Cloud speed, local control.
                         </p>
                     </div>
                     <div class="w-full md:w-1/2 h-64 bg-gray-900 rounded-3xl border border-white/10 flex items-center justify-center relative overflow-hidden">
@@ -102,7 +107,10 @@
     </section>
 
     <footer class="border-t border-white/10 py-12 text-center text-xs text-gray-600">
-        <p>&copy; 2026 Aero Digital.</p>
+        <div class="flex flex-col items-center">
+            <p>&copy; 2026 Aero Digital.</p>
+            <p class="text-[10px] text-gray-700 mt-2">Powered by Groq API.</p>
+        </div>
     </footer>
 
 </body>
