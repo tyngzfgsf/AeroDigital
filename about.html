@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Scout | Aero Digital</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .fade-in {
+            animation: fadeIn 1.2s ease-out forwards;
+            opacity: 0;
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+    </style>
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 top-0 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
+            <a href="index.html" class="text-sm font-semibold tracking-wide text-gray-300 hover:text-white transition">Aero Digital</a>
+            <a href="index.html" class="text-xs font-medium text-blue-500 hover:text-blue-400">Close x</a>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
+        <div class="max-w-3xl text-center">
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-8 fade-in text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500">
+                Preparation,<br>perfected.
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-400 leading-relaxed fade-in" style="animation-delay: 0.2s;">
+                Interviews aren't won in the room.<br>
+                They are won in the silence of preparation.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-32 px-6 bg-[#0a0a0a]">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-semibold mb-16 text-center">The Scout Method.</h2>
+
+            <div class="space-y-32">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold mb-4">Intelligent Conversation.</h3>
+                        <p class="text-gray-400 text-lg leading-relaxed">
+                            Scout is your dedicated interview partner. Chat naturally with our AI to simulate interview scenarios, refine your answers, and build confidence before the real day arrives.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/2 h-64 bg-gray-900 rounded-3xl border border-white/10 flex flex-col justify-center px-8 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-900/10 to-black"></div>
+                        <div class="w-2/3 bg-white/10 p-3 rounded-2xl rounded-tl-none mb-3 z-10"></div>
+                        <div class="w-3/4 bg-blue-600/20 p-3 rounded-2xl rounded-tr-none self-end z-10"></div>
+                        <div class="w-1/2 bg-white/10 p-3 rounded-2xl rounded-tl-none z-10"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold mb-4">Review Your Growth.</h3>
+                        <p class="text-gray-400 text-lg leading-relaxed">
+                            Never lose a good answer. Scout saves your chat sessions locally, allowing you to look back at your history, review your best responses, and track your improvement over time.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/2 h-64 bg-gray-900 rounded-3xl border border-white/10 flex items-center justify-center relative overflow-hidden">
+                         <div class="absolute inset-0 bg-gradient-to-bl from-cyan-900/10 to-black"></div>
+                         <div class="space-y-3 w-1/2">
+                            <div class="h-2 w-full bg-white/20 rounded-full"></div>
+                            <div class="h-2 w-2/3 bg-white/10 rounded-full"></div>
+                            <div class="h-2 w-3/4 bg-white/10 rounded-full"></div>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold mb-4">Total Privacy.</h3>
+                        <p class="text-gray-400 text-lg leading-relaxed">
+                            Your career history is personal. That's why Scout processes data locally on your Android device. No external servers, no data leaks. Your preparation stays yours.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/2 h-64 bg-gray-900 rounded-3xl border border-white/10 flex items-center justify-center relative overflow-hidden">
+                        <svg class="w-16 h-16 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 text-center px-6">
+        <h2 class="text-3xl md:text-5xl font-bold mb-8">Ready to Scout?</h2>
+        <a href="index.html" class="inline-block bg-white text-black px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition">
+            Go Back Home
+        </a>
+    </section>
+
+    <footer class="border-t border-white/10 py-12 text-center text-xs text-gray-600">
+        <p>&copy; 2026 Aero Digital.</p>
+    </footer>
+
+</body>
+</html>
