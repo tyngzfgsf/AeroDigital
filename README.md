@@ -7,7 +7,7 @@
 
   <p align="center">
     <strong>Preparation, Perfected.</strong><br>
-    The offline-first AI interview coach by Aero Digital.
+    The offline-first AI interview coach by <strong>Aero Digital</strong>.
     <br />
     <br />
     <a href="releases/latest"><strong>Download APK »</strong></a>
@@ -48,7 +48,7 @@ Since Scout is currently in **Early Access** and not yet on the Play Store, you 
 
 1.  **Download** the latest `.apk` file from the [Releases Page](releases/latest).
 2.  Open the file on your Android device.
-3.  If prompted, allow installation from **"Unknown Sources"** (This is required for apk's).
+3.  If prompted, allow installation from **"Unknown Sources"** (This is required for APKs).
 4.  Launch Scout and start preparing.
 
 ---
@@ -66,7 +66,7 @@ Since Scout is currently in **Early Access** and not yet on the Play Store, you 
   <h3>LOL_Gitech</h3>
   
   <p align="center">
-    I am a solo developer based in <b>South Korea</b>. 🇰🇷
+    I am a solo developer based in <b>South Korea</b> and the founder of <strong>Aero Digital</strong>. 🇰🇷
     <br />
     I built Scout because I believe interview preparation should be private, focused, and accessible.
     <br>
@@ -86,7 +86,7 @@ Since Scout is currently in **Early Access** and not yet on the Play Store, you 
 **Aero Digital** respects your privacy.
 * We do not collect personal data.
 * We do not upload audio or text to external servers.
-* Read the full policy [here](privacy.html).
+* Read the full policy [here](https://tyngzfgsf.github.io/AeroDigital/privacy.html).
 
 ---
 
