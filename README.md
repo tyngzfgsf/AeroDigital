@@ -21,8 +21,8 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-Powered%20by%20Groq-f55036?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Speed-Real%20Time-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-Llama%204-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Speed-Groq%20LPU-orange?style=for-the-badge" />
 </div>
 
 <br />
@@ -31,17 +31,17 @@
 
 **Scout** is a premium utility designed to bring clarity to your interview preparation. 
 
-Powered by the **Groq LPU™ Inference Engine**, Scout delivers interview feedback effectively instantly. No waiting, no loading spinners—just a natural, fluid conversation to help you land the job.
+Powered by **Meta's Llama 4** running on the **Groq LPU™ Inference Engine**, Scout delivers interview feedback effectively instantly. No waiting, no loading spinners—just a natural, fluid conversation to help you land the job.
 
 ### ✨ Key Features
 
 * **🚀 Powered by Groq:** Utilizes the world's fastest AI inference technology for real-time conversation.
-* **🤖 Intelligent Chat:** Simulate interview scenarios with an AI logic designed for behavioral questions.
+* **🧠 Llama 4 Intelligence:** Uses the latest state-of-the-art model for deep reasoning and human-like advice.
 * **📜 History Tracking:** Review past sessions to see how your answers have improved over time.
 * **⚡ Native Performance:** Built with native Android code for a buttery smooth experience.
 
 ### ⚡ Tech Stack
-* **Model:** Llama 3 (via Groq)
+* **Model:** Llama 4 (via Groq API)
 * **Architecture:** Native Android (Kotlin)
 
 ---
@@ -52,8 +52,14 @@ Since Scout is currently in **Early Access**, you will need to install the APK m
 
 1.  **Download** the latest `.apk` file from the [Releases Page](https://github.com/tyngzfgsf/AeroDigital/releases).
 2.  Open the file on your Android device.
-3.  If prompted, allow installation from **"Unknown Sources"**.
+3.  If prompted, allow installation from **"Unknown Sources"** (This is required for APKs).
 4.  Launch Scout and start preparing.
+
+---
+
+## 📸 Screenshots
+
+*Screenshots coming soon.*
 
 ---
 
@@ -76,6 +82,15 @@ Since Scout is currently in **Early Access**, you will need to install the APK m
   </a>
 
 </div>
+
+---
+
+## 🛡️ Privacy Policy
+
+**Aero Digital** respects your privacy.
+* We do not collect personal data.
+* We do not upload audio or text to external servers.
+* Read the full policy [here](https://tyngzfgsf.github.io/AeroDigital/privacy.html).
 
 ---
 
