@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icon.png">
+    <title>Scout | Aero Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Apple-like font settings */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        /* Animation Classes */
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        
+        /* Hide scrollbar for sleek look */
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+    </style>
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 top-0 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                 <img src="icon.png" alt="Scout Icon" class="w-6 h-6 rounded-md opacity-80">
+                <div class="text-sm font-semibold tracking-wide text-gray-300">Aero Digital</div>
+            </div>
+            
+            <div class="flex gap-6 text-xs font-medium text-gray-400">
+                <a href="#features" class="hover:text-white transition-colors">Features</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex flex-col items-center justify-center text-center px-4 pt-24 pb-20">
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-4 fade-in-up">
+            Scout.
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-400 font-light mb-12 max-w-xl mx-auto fade-in-up delay-100">
+            Your new clarity. The first app from Aero Digital.
+        </p>
+        
+        <div class="fade-in-up delay-200 flex flex-col md:flex-row gap-4 justify-center items-center mb-20">
+            
+            <a href="https://github.com/tyngzfgsf/AeroDigital" target="_blank"
+               class="bg-blue-600 text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-blue-500 transition shadow-[0_0_20px_rgba(37,99,235,0.3)] w-full md:w-auto text-center flex items-center justify-center">
+                Get Early Access
+            </a>
+            
+            <a href="about.html" class="px-8 py-3 rounded-full text-sm font-medium text-gray-300 border border-white/20 hover:bg-white/10 hover:text-white transition w-full md:w-auto flex justify-center">
+                Learn more
+            </a>
+        </div>
+        
+        <div class="fade-in-up delay-300">
+            <img src="icon.png" 
+                 alt="Scout App Icon" 
+                 class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-[3rem] shadow-2xl transform transition duration-500 hover:scale-[1.02]">
+        </div>
+    </section>
+
+    <section id="features" class="bg-[#101010] py-24 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">Pro-grade capabilities.</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-black p-10 rounded-3xl col-span-1 md:col-span-2 border border-white/10 min-h-[400px] flex flex-col justify-between group overflow-hidden relative">
+                    <div class="z-10">
+                        <h3 class="text-2xl font-bold mb-2">Intelligence built in.</h3>
+                        <p class="text-gray-400 max-w-md">Scout processes data locally on your device, ensuring privacy while delivering lightning-fast results.</p>
+                    </div>
+                    <div class="absolute right-[-50px] bottom-[-50px] w-64 h-64 bg-blue-600/20 rounded-full blur-[80px] group-hover:bg-blue-600/30 transition-all duration-700"></div>
+                </div>
+
+                <div class="bg-black p-8 rounded-3xl border border-white/10 min-h-[300px] flex flex-col justify-between">
+                     <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                     </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-1">Fast. Really fast.</h3>
+                        <p class="text-gray-500 text-sm">Optimized Native Android code.</p>
+                    </div>
+                </div>
+
+                <div class="bg-black p-8 rounded-3xl border border-white/10 min-h-[300px] flex flex-col justify-between">
+                    <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4">
+                       <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-1">Secure by default.</h3>
+                        <p class="text-gray-400 text-sm">Your data never leaves your control.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-white/10 py-12 px-6">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+            <p>&copy; 2026 Aero Digital. All rights reserved.</p>
+            <div class="flex gap-4 mt-4 md:mt-0">
+                <a href="privacy.html" class="hover:text-white transition">Privacy Policy</a>
+                <a href="terms.html" class="hover:text-white transition">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
