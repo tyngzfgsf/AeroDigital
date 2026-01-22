@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Scout | Aero Digital</title>
+    <title id="page-title">About Scout | Aero Digital</title>
     <link rel="icon" type="image/png" href="icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -26,16 +26,16 @@
     <nav class="fixed w-full z-50 top-0 bg-black/80 backdrop-blur-md border-b border-white/10">
         <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
             <a href="index.html" class="text-sm font-semibold tracking-wide text-gray-300 hover:text-white transition">Aero Digital</a>
-            <a href="index.html" class="text-xs font-medium text-blue-500 hover:text-blue-400">Close x</a>
+            <a id="btn-close" href="index.html" class="text-xs font-medium text-blue-500 hover:text-blue-400">Close x</a>
         </div>
     </nav>
 
     <section class="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
         <div class="max-w-3xl text-center">
-            <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-8 fade-in text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500">
+            <h1 id="hero-title" class="text-4xl md:text-6xl font-bold tracking-tight mb-8 fade-in text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500">
                 Preparation,<br>accelerated.
             </h1>
-            <p class="text-xl md:text-2xl text-gray-400 leading-relaxed fade-in" style="animation-delay: 0.2s;">
+            <p id="hero-sub" class="text-xl md:text-2xl text-gray-400 leading-relaxed fade-in" style="animation-delay: 0.2s;">
                 Interviews aren't won in the room.<br>
                 They are won in the speed of your preparation.
             </p>
@@ -44,13 +44,13 @@
 
     <section class="py-32 px-6 bg-[#0a0a0a]">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl font-semibold mb-16 text-center">The Scout Method.</h2>
+            <h2 id="method-title" class="text-3xl font-semibold mb-16 text-center">The Scout Method.</h2>
 
             <div class="space-y-32">
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="flex-1">
-                        <h3 class="text-2xl font-bold mb-4">Intelligent Conversation.</h3>
-                        <p class="text-gray-400 text-lg leading-relaxed mb-6">
+                        <h3 id="b1-title" class="text-2xl font-bold mb-4">Intelligent Conversation.</h3>
+                        <p id="b1-desc" class="text-gray-400 text-lg leading-relaxed mb-6">
                             Scout is your dedicated interview partner. Chat naturally with our AI to simulate interview scenarios. Thanks to the Groq LPU™, responses are instantaneous—creating a flow that feels like a real human dialogue.
                         </p>
                         
@@ -69,8 +69,8 @@
 
                 <div class="flex flex-col md:flex-row-reverse items-center gap-12">
                     <div class="flex-1">
-                        <h3 class="text-2xl font-bold mb-4">Review Your Growth.</h3>
-                        <p class="text-gray-400 text-lg leading-relaxed">
+                        <h3 id="b2-title" class="text-2xl font-bold mb-4">Review Your Growth.</h3>
+                        <p id="b2-desc" class="text-gray-400 text-lg leading-relaxed">
                             Never lose a good answer. Scout saves your chat sessions locally on your device, allowing you to look back at your history, review your best responses, and track your improvement over time.
                         </p>
                     </div>
@@ -86,8 +86,8 @@
 
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="flex-1">
-                        <h3 class="text-2xl font-bold mb-4">Transient Processing.</h3>
-                        <p class="text-gray-400 text-lg leading-relaxed">
+                        <h3 id="b3-title" class="text-2xl font-bold mb-4">Transient Processing.</h3>
+                        <p id="b3-desc" class="text-gray-400 text-lg leading-relaxed">
                             We prioritize data minimization. While Scout uses the cloud for high-speed intelligence, <strong>we do not store your conversations</strong> on our servers. Your chat history lives locally on your device, giving you the best of both worlds: Cloud speed, local control.
                         </p>
                     </div>
@@ -100,8 +100,8 @@
     </section>
 
     <section class="py-32 text-center px-6">
-        <h2 class="text-3xl md:text-5xl font-bold mb-8">Ready to Scout?</h2>
-        <a href="index.html" class="inline-block bg-white text-black px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition">
+        <h2 id="final-cta" class="text-3xl md:text-5xl font-bold mb-8">Ready to Scout?</h2>
+        <a id="btn-back" href="index.html" class="inline-block bg-white text-black px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition">
             Go Back Home
         </a>
     </section>
@@ -112,6 +112,45 @@
             <p class="text-[10px] text-gray-700 mt-2">Powered by Groq API.</p>
         </div>
     </footer>
+
+    <script>
+        fetch('https://ipapi.co/json/')
+            .then(res => res.json())
+            .then(data => {
+                if (data.country_code === 'KR') {
+                    const k = {
+                        title: "스카우트 소개 | Aero Digital",
+                        close: "닫기 x",
+                        heroTitle: "면접 준비의 가속화.",
+                        heroSub: "면접의 승패는 현장이 아닌,<br>준비된 속도에서 결정됩니다.",
+                        methodTitle: "스카우트 메소드.",
+                        b1Title: "지능형 대화.",
+                        b1Desc: "Scout는 당신의 전담 인터뷰 파트너입니다. AI와 자연스럽게 대화하며 실전 면접 시나리오를 시뮬레이션하세요. Groq LPU™ 덕분에 실제 사람과 대화하는 듯한 즉각적인 흐름을 경험할 수 있습니다.",
+                        b2Title: "성장의 기록.",
+                        b2Desc: "좋은 답변을 절대 놓치지 마세요. Scout는 대화 내용을 기기에 로컬 저장하여, 언제든 기록을 되돌아보고 답변을 검토하며 실력 향상을 추적할 수 있게 합니다.",
+                        b3Title: "철저한 보안.",
+                        b3Desc: "우리는 데이터 최소화를 최우선으로 합니다. 클라우드를 통해 고속 지능을 제공하지만, <strong>서버에 대화 내용을 저장하지 않습니다.</strong> 모든 데이터는 사용자 기기에만 존재합니다. 클라우드의 속도와 로컬의 통제권, 두 마리 토끼를 잡으세요.",
+                        finalCta: "준비 되셨나요?",
+                        btnBack: "홈으로 돌아가기"
+                    };
+
+                    document.getElementById('page-title').innerText = k.title;
+                    document.getElementById('btn-close').innerText = k.close;
+                    document.getElementById('hero-title').innerText = k.heroTitle;
+                    document.getElementById('hero-sub').innerHTML = k.heroSub;
+                    document.getElementById('method-title').innerText = k.methodTitle;
+                    document.getElementById('b1-title').innerText = k.b1Title;
+                    document.getElementById('b1-desc').innerHTML = k.b1Desc;
+                    document.getElementById('b2-title').innerText = k.b2Title;
+                    document.getElementById('b2-desc').innerText = k.b2Desc;
+                    document.getElementById('b3-title').innerText = k.b3Title;
+                    document.getElementById('b3-desc').innerHTML = k.b3Desc;
+                    document.getElementById('final-cta').innerText = k.finalCta;
+                    document.getElementById('btn-back').innerText = k.btnBack;
+                }
+            })
+            .catch(err => console.log("IP Detection Failed."));
+    </script>
 
 </body>
 </html>

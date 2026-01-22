@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="icon.png">
-    <title>Scout | Aero Digital</title>
+    <title id="page-title">Scout | Aero Digital</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom Apple-like font settings */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             -webkit-font-smoothing: antialiased;
         }
-        /* Animation Classes */
         .fade-in-up {
             animation: fadeInUp 1s ease-out forwards;
             opacity: 0;
@@ -24,8 +22,6 @@
         .delay-100 { animation-delay: 0.1s; }
         .delay-200 { animation-delay: 0.2s; }
         .delay-300 { animation-delay: 0.3s; }
-        
-        /* Hide scrollbar for sleek look */
         ::-webkit-scrollbar { width: 0px; background: transparent; }
     </style>
 </head>
@@ -39,28 +35,27 @@
             </div>
             
             <div class="flex gap-6 text-xs font-medium text-gray-400">
-                <a href="#features" class="hover:text-white transition-colors">Features</a>
+                <a href="#features" id="nav-features" class="hover:text-white transition-colors">Features</a>
             </div>
         </div>
     </nav>
 
     <section class="min-h-screen flex flex-col items-center justify-center text-center px-4 pt-24 pb-20">
-        <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-4 fade-in-up">
+        <h1 id="hero-title" class="text-5xl md:text-7xl font-bold tracking-tight mb-4 fade-in-up">
             Scout.
         </h1>
-        <p class="text-xl md:text-2xl text-gray-400 font-light mb-12 max-w-xl mx-auto fade-in-up delay-100">
+        <p id="hero-subtitle" class="text-xl md:text-2xl text-gray-400 font-light mb-12 max-w-xl mx-auto fade-in-up delay-100">
             Preparation, accelerated.<br>
             The first app from Aero Digital.
         </p>
         
         <div class="fade-in-up delay-200 flex flex-col md:flex-row gap-4 justify-center items-center mb-20">
-            
-            <a href="https://github.com/tyngzfgsf/AeroDigital" target="_blank"
+            <a id="btn-access" href="https://github.com/tyngzfgsf/AeroDigital" target="_blank"
                class="bg-blue-600 text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-blue-500 transition shadow-[0_0_20px_rgba(37,99,235,0.3)] w-full md:w-auto text-center flex items-center justify-center">
                 Get Early Access
             </a>
             
-            <a href="about.html" class="px-8 py-3 rounded-full text-sm font-medium text-gray-300 border border-white/20 hover:bg-white/10 hover:text-white transition w-full md:w-auto flex justify-center">
+            <a id="btn-learn" href="about.html" class="px-8 py-3 rounded-full text-sm font-medium text-gray-300 border border-white/20 hover:bg-white/10 hover:text-white transition w-full md:w-auto flex justify-center">
                 Learn more
             </a>
         </div>
@@ -74,13 +69,13 @@
 
     <section id="features" class="bg-[#101010] py-24 px-6">
         <div class="max-w-5xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">Pro-grade capabilities.</h2>
+            <h2 id="feat-title" class="text-3xl md:text-4xl font-semibold mb-12 text-center">Pro-grade capabilities.</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-black p-10 rounded-3xl col-span-1 md:col-span-2 border border-white/10 min-h-[400px] flex flex-col justify-between group overflow-hidden relative">
                     <div class="z-10">
-                        <h3 class="text-2xl font-bold mb-2">Powered by Groq.</h3>
-                        <p class="text-gray-400 max-w-md">
+                        <h3 id="feat-1-title" class="text-2xl font-bold mb-2">Powered by Groq.</h3>
+                        <p id="feat-1-desc" class="text-gray-400 max-w-md">
                             Scout utilizes the Groq LPU™ Inference Engine to deliver AI responses at record-breaking speeds. It feels less like a chatbot and more like a real conversation.
                         </p>
                     </div>
@@ -88,22 +83,22 @@
                 </div>
 
                 <div class="bg-black p-8 rounded-3xl border border-white/10 min-h-[300px] flex flex-col justify-between">
-                     <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4">
+                    <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4">
                         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                      </div>
                     <div>
-                        <h3 class="text-xl font-bold mb-1">Zero Latency.</h3>
-                        <p class="text-gray-500 text-sm">Instant answers. No waiting.</p>
+                        <h3 id="feat-2-title" class="text-xl font-bold mb-1">Zero Latency.</h3>
+                        <p id="feat-2-desc" class="text-gray-500 text-sm">Instant answers. No waiting.</p>
                     </div>
                 </div>
 
                 <div class="bg-black p-8 rounded-3xl border border-white/10 min-h-[300px] flex flex-col justify-between">
                     <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4">
-                       <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
                     </div>
                     <div>
-                        <h3 class="text-xl font-bold mb-1">Smart Logic.</h3>
-                        <p class="text-gray-400 text-sm">Running Llama 4 for human-like reasoning.</p>
+                        <h3 id="feat-3-title" class="text-xl font-bold mb-1">Smart Logic.</h3>
+                        <p id="feat-3-desc" class="text-gray-400 text-sm">Running Llama 4 for human-like reasoning.</p>
                     </div>
                 </div>
             </div>
@@ -117,11 +112,58 @@
                 <p class="text-[10px] text-gray-700 mt-1">Powered by Groq API.</p>
             </div>
             <div class="flex gap-4 mt-4 md:mt-0">
-                <a href="privacy.html" class="hover:text-white transition">Privacy Policy</a>
-                <a href="terms.html" class="hover:text-white transition">Terms of Service</a>
+                <a href="privacy.html" id="link-privacy" class="hover:text-white transition">Privacy Policy</a>
+                <a href="terms.html" id="link-terms" class="hover:text-white transition">Terms of Service</a>
             </div>
         </div>
     </footer>
+
+    <script>
+        fetch('https://ipapi.co/json/')
+            .then(res => res.json())
+            .then(data => {
+                // If Country is South Korea (KR)
+                if (data.country_code === 'KR') {
+                    
+                    // --- Translations (Korean) ---
+                    const k = {
+                        title: "스카우트 | Aero Digital",
+                        navFeat: "기능",
+                        heroTitle: "스카우트.",
+                        heroSub: "압도적인 속도의 면접 준비.<br>Aero Digital의 첫 번째 앱.",
+                        btnAccess: "사전 예약하기",
+                        btnLearn: "더 알아보기",
+                        featTitle: "프로급 성능.",
+                        f1Title: "Groq 엔진 탑재.",
+                        f1Desc: "Scout는 Groq LPU™를 활용하여 기록적인 속도로 AI 답변을 제공합니다. 챗봇이 아닌, 실제 대화처럼 느껴집니다.",
+                        f2Title: "제로 레이턴시.",
+                        f2Desc: "즉각적인 답변. 기다림은 없습니다.",
+                        f3Title: "스마트 로직.",
+                        f3Desc: "Llama 4 기반의 인간과 같은 추론 능력.",
+                        privacy: "개인정보 처리방침",
+                        terms: "이용 약관"
+                    };
+
+                    // --- Apply Translations ---
+                    document.getElementById('page-title').innerText = k.title;
+                    document.getElementById('nav-features').innerText = k.navFeat;
+                    document.getElementById('hero-title').innerText = k.heroTitle;
+                    document.getElementById('hero-subtitle').innerHTML = k.heroSub;
+                    document.getElementById('btn-access').innerText = k.btnAccess;
+                    document.getElementById('btn-learn').innerText = k.btnLearn;
+                    document.getElementById('feat-title').innerText = k.featTitle;
+                    document.getElementById('feat-1-title').innerText = k.f1Title;
+                    document.getElementById('feat-1-desc').innerText = k.f1Desc;
+                    document.getElementById('feat-2-title').innerText = k.f2Title;
+                    document.getElementById('feat-2-desc').innerText = k.f2Desc;
+                    document.getElementById('feat-3-title').innerText = k.f3Title;
+                    document.getElementById('feat-3-desc').innerText = k.f3Desc;
+                    document.getElementById('link-privacy').innerText = k.privacy;
+                    document.getElementById('link-terms').innerText = k.terms;
+                }
+            })
+            .catch(err => console.log("IP Detection Failed, staying in English."));
+    </script>
 
 </body>
 </html>
